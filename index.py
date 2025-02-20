@@ -18,3 +18,8 @@
 
 
 # data types in python practical 
+
+
+
+
+# hello hi kaise ho we are learning about data analytics development 
