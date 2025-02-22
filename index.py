@@ -27,3 +27,61 @@
 # print("hello world")
 
 # print("hello world")
+
+
+
+# Operators in python 
+
+# arithmatic operator 
+a = 5
+b = 3
+c=a+b
+# print(f'the addition of a and b = {c}')
+
+# print("The Addition of a and b =",c)
+
+
+# Addition
+# print("Addition:", a + b)  
+
+# # Subtraction
+# print("Subtraction:", a - b) 
+
+# # Multiplication
+# print("Multiplication:", a * b)  
+
+# # Division
+# print("Division:", a / b) 
+
+# # Floor Division
+# print("Floor Division:", a // b)  
+
+# # Modulus
+# print("Modulus:", a % b) 
+
+# # Exponentiation
+# print("Exponentiation:", a ** b) 
+
+
+# Comparison of Python Operators
+
+# a = 13
+# b = 33
+
+# print(a > b)
+# print(a < b)
+# print(a == b)
+# print(a != b)
+# print(a >= b)
+# print(a <= b)
+
+
+# Logical Operators in Python
+a = True 
+b = False
+print(a and b)  
+print(a or b)
+print(not a)
+
+
+
