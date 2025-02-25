@@ -281,6 +281,84 @@ c=a+b
 # 3. Boolean Data Type in Python
 
 # a = 50
-# b = 500
+# b = 5
 # c = a==b
 # print(c)
+
+
+
+# dictionary in python 
+
+# initialize empty dictionary
+# d = {}
+# print(d)
+
+# d = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+# print(d)
+
+# # creating dictionary using dict() constructor
+# d1 = dict({1: 'Geeks', 2: 'For', 3: 'Geeks'})
+# print(d1)
+
+
+
+# d = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
+
+# # Accessing an element using key
+# print(d['name']) #For
+
+# # Accessing a element using get
+# print(d.get(3))  #Geeks
+
+
+# condition in python 
+
+# age = 29
+# if(age>=18):
+#     print("you are eligible for vote")
+    
+
+# age = 50
+# if(age>=50): print("you are eligible for pension")
+
+
+# if else in python 
+
+# age = int(input("Enter your age "))
+
+# if(age>=50):
+#     print("you are eligible for pension ")
+# else:
+#     print("you are not eligible for pension ")
+
+# short hand property of python 
+# marks = 4
+# res = "you are pass" if marks >= 40 else "you are Fail"
+
+# # print(res)
+# print(f"Result: {res}")
+
+
+# age = 40
+
+# if age <= 12:
+#     print("Child.")
+# elif age <= 19:
+#     print("Teenager.")
+# elif age <= 35:
+#     print("Young adult.")
+# else:
+#     print("Adult.")
+
+# nested if in python 
+
+# age = 60
+# is_member = False
+
+# if age >= 60:
+#     if is_member:
+#         print("30% senior discount!")
+#     else:
+#         print("20% senior discount.")
+# else:
+#     print("Not eligible for a senior discount.")
