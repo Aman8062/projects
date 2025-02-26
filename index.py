@@ -362,3 +362,36 @@ c=a+b
 #         print("20% senior discount.")
 # else:
 #     print("Not eligible for a senior discount.")
+
+# nested if condition in python 
+
+# age = 70
+# is_member = False
+
+# if age >= 60:
+#     if is_member:
+#         print("30% senior discount!")
+#     else:
+#         print("20% senior discount.")
+# else:
+#     print("Not eligible for a senior discount.")
+
+
+# Ternary Conditional Statement in Python
+# Assign a value based on a condition
+# age = 16
+# s = "Adult" if age >= 18 else "Minor"
+
+# print(s)
+
+# Match-Case Statement in Python
+
+# number = 3
+
+# match number:
+#     case 1:
+#         print("One")
+#     case 2 | 3:
+#         print("Two or Three")
+#     case _:
+#         print("Other number")
