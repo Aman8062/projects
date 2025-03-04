@@ -311,6 +311,8 @@ c=a+b
 # print(d.get(3))  #Geeks
 
 
+
+# ✔
 # condition in python 
 
 # age = 29
@@ -395,3 +397,79 @@ c=a+b
 #         print("Two or Three")
 #     case _:
 #         print("Other number")
+
+
+
+# loop in python
+
+# while loop
+
+# num =0
+# while(num<10):
+#     num = num+5
+#     print("hello Good morning everyone ",num)
+
+# cnt = 0
+# while(cnt < 3):
+#     cnt = cnt + 1
+#     print("Hello Geek",cnt)
+# else:
+#     print("In Else Block")
+
+
+
+# count = 0
+# while (count == 0):
+#     print("Hello Geek")
+
+
+
+
+# Ram = 0
+# while (Ram < 3):
+#     Ram = Ram + 1
+#     print(Ram, "Hey Ram ")
+# else:
+#     print("In Else Block")
+
+
+
+
+# count = 0
+# while (count == 0):
+#     print("Hello Geek")
+
+
+# for loop in python 
+
+# n = 11
+# for i in range(1,n):
+#     print(i)
+
+
+# li = ["Ram", "mohan", "rohan"]
+# for i in li:
+#     print(i)
+    
+# tup = ("pooja", "neha", "mukul")
+# for i in tup:
+#     print(i)
+    
+# s = "Geeks"
+# for i in s:
+#     print(i)
+    
+# d = dict({'x':123, 'y':354})
+# for i in d:
+#     print("%s  %d" % (i, d[i]))
+    
+# set1 = {1, 2, 3, 4, 5, 6}
+# for i in set1:
+#     print(i)
+
+ 
+number = int(input("Enter any number "))
+for i in range(1,11):
+    total = number*i
+    print(total)
+    
