@@ -141,3 +141,173 @@
 # else:
 #     print("you are fail ")
 
+
+
+# Exercise 1: Print first 10 natural numbers using while loop
+
+# num = 1
+# while num <= 10:
+#     print(num)
+#     num += 1
+
+
+# list = ["geeks", "for", "geeks"]
+# length=len(list)
+# print(length)
+# for index in range(length):
+#     print(list[index])
+
+
+
+# list = ["ram", "suresh", "mohan"]
+# for index in range(len(list)):
+#     print(list[index])
+# else:
+#     print("Inside Else Block")
+
+
+# loop inside loop is known as nested loop 
+# for iterator_var in sequence:   # outer loop
+#    for iterator_var in sequence:  # inner loop 
+#        statements(s)
+#    statements(s)
+
+
+
+# while expression:
+#    while expression: 
+#        statement(s)
+#    statement(s)
+
+# i=5
+# for j in range(i):
+#     print(j)
+
+
+
+# for i in range(1, 5):
+#     for j in range(i):
+#         print(i, end=' ')
+#     print()
+# abc = 'geeksforgeeks'
+# for letter in abc:
+#     if letter == 'e' or letter == 's':
+#         continue
+#     print('Current Letter :', letter)
+
+
+# for letter in 'geeksforgeeks':
+#     if letter == 'f' or letter == 'o':
+#         break
+
+# print('Current Letter :', letter)
+
+# for letter in 'geeksforgeeks':
+#     pass
+# print('Last Letter :', letter)
+
+# fruits = ["apple", "orange", "kiwi"]
+
+# for fruit in fruits:
+
+#     print(fruit)
+
+
+#print first 10 natural number using while loop
+
+
+#i = 1
+#while i <= 10:
+  #  print(i)
+  #  i += 1
+
+
+
+  #calculate sum of all number from 1 to a given nummber 
+
+#s  = 0
+#n = int(input ("enter number"))
+
+#for i in range (1,n+1,1):
+ #   s += i
+  #  print("\n")
+   # print("sum is:",s)
+
+  # print multiplication table of a given number 
+
+#n = 4
+#for i in range(1,11,1):
+ #   product = n * i
+  #  print(product)
+
+# DISPLAY NUMBER FROM A LIST USING A LOOP
+
+# number = [12,75,150,180,145,525,50]
+
+# for item in number:
+#     if item > 500:
+#         break
+#     elif item > 150:
+#         continue
+#     elif item == 0:
+#      print(item)
+  
+
+
+
+#numbers = [12, 75, 150, 180, 145, 525, 50]
+# iterate each item of a list
+#for item in numbers:
+ #   if item > 500:
+  #      break
+   # elif item > 150:
+    #    continue
+    # check if number is divisible by 5
+    #elif item % 5 == 0:
+     #   print(item)
+
+
+
+#COUNT THE TOTAL NUMBER OF DIGITS IN A NUMBER
+
+#num = 75869
+#count = 0
+#while num != 0:
+    # floor division
+    # to reduce the last digit from number
+ #   num = num // 10
+
+    # increment counter by 1
+  #  count = count + 1
+#print("Total digits are:", count)
+
+
+#PRINT THE FOLLOWING PATTERN
+
+
+
+
+#h = 6
+#g = 6
+#for i in range(0,h+1):
+ #   for j in range(g-i,0,-1):
+  #      print(j,end ='')
+   #     print()
+
+
+   #COUNT THE TOTAL NUMBER OF DIGITS IN A NUMBER 
+
+# num = 75869
+# count = 0
+# while num != 0:
+#     # floor division
+#     # to reduce the last digit from number
+#     num = num // 10
+
+#     # increment counter by 1
+#     count = count + 1
+# print("Total digits are:", count)
+
+
+
+
